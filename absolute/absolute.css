@@ -1,0 +1,45 @@
+.container {
+  width: 500px;
+  height: 300px;
+  background-color: black;
+  margin-left: 30%;
+  margin-top: 200px;
+  position: relative;
+
+  align-items: center;
+}
+.box {
+  width: 50px;
+  height: 50px;
+  color: aliceblue;
+  background-color: chocolate;
+  margin: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.b{
+    position: absolute;
+    top: 0px;
+    right: 0;
+}
+
+.c{
+    border-radius: 50px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.d{
+    position: absolute;
+    left: 0;
+    bottom:0;
+
+}
+.e{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+}

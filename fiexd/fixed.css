@@ -27,3 +27,17 @@ header {
   left: 0;
 
 }
+/* new */
+.container{
+  width: 400px;
+  min-height: 300px;
+  background-color: beige;
+}
+.fixed{
+  height: 150px;
+  width: 150px;
+  background-color: orange;
+  position: fixed;
+  top: 50px;
+  left: 100px;
+}

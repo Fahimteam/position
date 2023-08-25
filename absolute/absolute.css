@@ -43,3 +43,47 @@
     bottom: 0;
 
 }
+
+.container2{
+  background-color: aquamarine;
+  width: 400px;
+  min-height: 400px;
+  position: relative;
+  margin: 80px auto;
+}
+.a1{
+  background-color: green;
+  position: absolute;
+  top: -25px;
+  left: -25px;
+  
+  z-index: -1;
+}
+.b1{
+  position: absolute;
+  right:-25px;
+  top: -25px;
+  z-index: -1;
+
+}
+.c1{
+  border-radius: 50px;
+  position:absolute;
+  top: 150px;
+  left: 150px;
+  transform: translate(50%,50%);
+
+}
+.d1{
+  position: absolute;
+  bottom: -25px;
+  left: -25px;
+  z-index: -1;
+
+}
+.e1{
+  position: absolute;
+  bottom: -25px;
+  right: -25px;
+  z-index: -1;
+}
